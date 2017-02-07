@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8" >
+		<meta name="description" content="beschrijving van de webpagina" >
+		<meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+        <meta name="viewport" content="width=device-width, height=device-height" />
+		
+		<title>Titel van de webpagina</title>
+
+	</head>
+    
+
+	<body>
+
+        <script type="text/javascript">
+				
+function Rekenmachine(){
+	this.waarde1 =0;
+	this.waarde2 =0;
+							
+	this.Optel = function(){
+		return this.waarde1 + this.waarde2;
+	}
+	this.vermindering = function(){
+		return this.waarde3 - this.waarde4;
+	}
+	this.vermenigvuldiging = function(){
+		return this.waarde5 * this.waarde6;
+	}
+	this.deling = function(){
+		return this.waarde7 / this.waarde8;
+	}
+	
+}
+var rekenen = new Rekenmachine();
+rekenen.waarde1 = 5;
+rekenen.waarde2 = 10;
+rekenen.waarde3 = 6;
+rekenen.waarde4 = 2;
+rekenen.waarde5 = 40;
+rekenen.waarde6 = 30;
+rekenen.waarde7 = 20;
+rekenen.waarde8 = 10;
+var uitkomst = rekenen.Optel();
+var uitkomst2 = rekenen.vermindering();
+var uitkomst3 = rekenen.vermenigvuldiging();
+var uitkomst4 = rekenen.deling();
+
+	
+document.write("uitkomst : " + uitkomst + "<br>uitkomst2 : " + uitkomst2 + "<br>uitkomst3 : " + uitkomst3 + "<br>uitkomst4 : " + uitkomst4 );
+
+ </script>
+   
+	</body>
+</html>
