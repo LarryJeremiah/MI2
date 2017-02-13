@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+	
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+	
+
+	</head>
+<style>
+	
+	div{width: 52px;
+	height: 52px;
+		background-color: black;
+	float: left;
+		border: 1px solid black;
+	}
+	
+	
+	</style>
+	<body>
+	<script type="text/javascript">
+		var x = 1;
+		for(teller = 0; teller <8; teller++){
+			for(i = 0; i <9; i++){
+				//de % zorgt voor modulo je moet de getal vermenigvuldigen en de restwaarde blijft over bv 8%3 = 2 
+				if(x%2){
+					document.write("<div style= 'background-color: black;'></div>");
+				}
+				//document.write zorgt voor de code in de browser van de html code 
+				else{
+					document.write("<div style= 'background-color: Green;'></div>");
+				}
+				x++;
+			}
+			document.write("<br><br><br>");
+		}
+		
+		</script>
+		
+		
+	</body>
+	
+
+	
+</html>
