@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>MI2-les4</title>
+    <meta name="description" content="les 4" />
+    <meta name="author" content="larry jeremiah" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="MI2-les4/les4/js/jquery-3.1.1.min.js"></script>
+    <script>
+        $(function () {
+            var aantal = $("li").length;
+            $("body").prepend("Aantal plaatsen: " + aantal);
+            var plaats = $("li").last().prependTo("ul");
+        });
+    </script>
+</head>
+
+<body>
+    <ul>
+        <li>Anderlecht 30° </li>
+        <li>Leuven 25°</li>
+        <li>Oostende 33°</li>
+        <li>Brussel 13°</li>
+        <li>Mechelen -5°</li>
+    </ul>
+</body>
+
+</html>
